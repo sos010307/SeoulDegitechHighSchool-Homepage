@@ -1,0 +1,40 @@
+section{position:relative; left:330px; width:877px; padding:24px 60px 60px; background:#fff;}
+section .admissions-icon{display:block; margin:48px auto 31px;}
+section>h2{margin-top:-12px; font-size:38px; font-weight:normal; line-height:58px; text-align:center; letter-spacing:-1.9px; color:#668f88;}
+section>p{margin-bottom:48px; font-size:14px; letter-spacing:-0.14px; text-align:center; color:#668f88;}
+section .admissions-main-img{margin-bottom:39px;}
+
+section dl{width:100%; height:auto; margin-bottom:40px;}
+section dl dt{height:100%; margin-bottom:15px; font-size:16px; font-weight:900; letter-spacing:-0.16px; line-height:18px; color:#272218;}
+section dl dt div[class^="bar"]{height:1px; margin-bottom:5px;}
+section dl dt .bar-blue{background:#0078b7;}
+section dl dd{font-size:14px; line-height:20px; color:#272218;}
+section dl dd.highlight-blue{font-size:14px; line-height:24px; color:#0085ca;}
+section dl dd span{font-weight:bold;}
+section dl.dl-long dt div[class^="bar"]{width:116px;}
+
+section dl dd table{position:relative; width:100%; height:auto; margin:24px 0 12px; border-collapse:collapse; font-size:14px; text-align:center;}
+section dl dd table:before{display:inline-block; content:""; position:absolute; top:0; left:0; width:100%; border-top:1px solid #6d6d6d;}
+section dl dd table thead{background:#0085ca; color:#fff;}
+section dl dd table thead tr th{border:1px solid #fff;}
+section dl dd table thead tr th:first-child{border-left:none;}
+section dl dd table thead tr th:last-child{border-right:none;}
+section dl dd table tbody tr td{border:1px solid #6d6d6d;}
+section dl dd table tbody tr td:first-child{border-left:none;}
+section dl dd table tbody tr td:last-child{border-right:none;}
+section dl dd table .bor-bot-none{border-bottom:none;}
+section dl dd table .practical-detail{font-size:10px;}
+section dl.admissions-dl table thead tr:first-child td:first-child{height:67px;}
+section dl.submission-dl table thead tr{height:46px;}
+section dl.submission-dl table tbody tr, section dl.admissions-dl table tbody tr{height:31px;}
+
+section dl dd ul.eligibility-list>li{margin-left:5px; list-style:upper-latin; list-style-position:inside;}
+section dl dd ul.eligibility-list>li ul li:before{display:inline-block; content:"-"; margin:0 5px;}
+section dl.notes-dl dd{line-height:24px;}
+section dl.contact-dl dd:last-child{margin-top:50px; text-align:center;}
+section dl.contact-dl dd p{display:inline-block; margin-right:15px;}
+section dl.contact-dl dd p span{margin-right:5px; font-weight:bold;}
+section dl.contact-dl dd img{margin:0 auto;}
+section dl.scholarships-dl dd ol>li{margin-bottom:30px; font-weight:bold; line-height:24px; list-style:inherit; list-style-position:inside;}
+section dl.scholarships-dl dd ol>li p{font-weight:normal;}
+section dl.scholarships-dl dd ol>li ul li{margin-left:5px; font-weight:normal; list-style:disc; list-style-position:inside;}

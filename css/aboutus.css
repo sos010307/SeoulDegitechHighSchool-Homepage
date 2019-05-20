@@ -1,0 +1,44 @@
+/* section */
+section.main{width:806px; height:auto; margin-left:404px; padding:20px 57px 0 57px; background:#fff;}
+section>img{display:block; margin:55px auto;}
+section .subtitle{display:block; width:auto; height:35px; margin-top:15px; font-size:15px; font-weight:500; line-height:35px; text-align:center; color:white;}
+hr{margin-top:30px; border-top:1px solid #cbcbcb;}
+/* philosophy */
+#philosophy .subtitle{width:240px; background:#5567a3;}
+#philosophy h2{text-align:center; color:#668f88; font-size:30px; font-weight:lighter; letter-spacing:-0.5px;}
+#philosophy p{max-width:672px; margin:0 auto; font-size:12px; line-height:24px; white-space:pre-line;}
+/* five_goals */
+#five_goals .subtitle{width:231px; background:#ffc40d;}
+#five_goals h2{font-size:38.5px; font-weight:normal; text-align:center; color:#668f88; letter-spacing:-0.5px;}
+#five_goals p{font-size:16px; line-height:30px; text-align:center; letter-spacing:-0.25px; color:#668f88;}
+/* digi_talents */
+#digi_talents .subtitle{width:167px; background:#aeaeae;}
+#digi_talents img{margin:70px auto;}
+#digi_talents p{font-size:12px; line-height:24px; text-align:left;}
+#digi_talents p span{font-weight:bold;}
+/* facilities */
+#facilities .subtitle{width:283px; padding-left:17px; background:#7ccdee; text-align:left;}
+#facilities .subtitle+img{width:100%; margin:40px 0 35px;}
+#facilities .fac-bar{width:50px; margin:15px auto 0; border-top:1px solid #666666;}
+#facilities ul+img{margin-top:85px;}
+#facilities ul{overflow:hidden; width:100%; height:auto;}
+#facilities ul li{float:left; width:215.3px; margin-bottom:25px; margin-right:23px; list-style:none;}
+#facilities ul li:nth-child(3){margin-right:0;}
+#facilities ul li:nth-child(6){margin-right:0;}
+#facilities ul li:nth-child(9){margin-right:0;}
+#facilities ul li img{height:195px;}
+#facilities ul li p{text-align:right; font-size:11px;}
+/* history */
+#history .subtitle{width:274px; background:#0e76bc; margin-bottom:70px;}
+#history h2{text-align:center; font-size:38px; color:#668f88; font-weight:normal; letter-spacing:-0.25px;}
+#history p{text-align:center; font-size:16px; color:#668f88; letter-spacing:-0.25px;}
+#history h3{margin:50px 0 60px; text-align:center; font-size:30px; font-weight:normal; letter-spacing:-0.25px;}
+/* contact_us */
+#contact_us .subtitle{width:274px; padding-left:17px; background:#ea4335; text-align:left;}
+#contact_us h2{text-align:center; font-size:38px; color:#668f88; font-weight:normal; letter-spacing:-0.5px; line-height:50px; letter-spacing:-0.5px;}
+#contact_us p{text-align:center; font-size:16px; color:#668f88; letter-spacing:-0.25px;}
+#contact_us .contact_adr{margin:65px 0 45px 45px}
+#contact_us h3{font-size:14px; line-height:24px; font-weight:normal;}
+#contact_us ul li{font-size:14px; margin-left:16px; line-height:24px;list-style: disc;}
+#contact_us .mapouter{position:relative; height:550px; width:692px; text-align:right;}
+#contact_us .gmap_canvas {overflow:hidden; background:none!important; height:500px; width:692px;}

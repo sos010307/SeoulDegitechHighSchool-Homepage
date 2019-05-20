@@ -1,0 +1,15 @@
+/*main*/
+#wrap{display:flex; position:relative; width:100%; height:100vh; background:url(../image/main_background.png);}
+#eng-page{width:50%; height:100%;}
+#korea-page{width:50%; height:100%;}
+.img-box{position:relative; left:50%; top:50%; width:72%; height:550px;}
+.img-box:hover img:last-child{transform:rotateZ(-15deg);}
+.img-box img:first-child{width:100%;}
+.img-box img:last-child{transition:0.5s;}
+#eng-page .img-box{transform:translate(-40%,-40%);}
+#korea-page .img-box{transform:translate(-70%,-40%);}
+#eng-page .img-box img:last-child{top:-150px; right:55px;}
+#korea-page .img-box img:last-child{top:-180px; right:-50px;}
+#eng-page .img-box img, #korea-page .img-box img{position:absolute;}
+/*footer*/
+#footer{position:absolute; bottom:0; width:100%; height:130px; padding-top:22px; background:rgba(0,0,0,0.5); font-size:14px; line-height:24px; letter-spacing:0.35px; text-align:center; color:#fff;}

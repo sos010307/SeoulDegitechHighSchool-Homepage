@@ -1,0 +1,55 @@
+/*section*/
+section{position:relative; left:330px; width:877px; padding:24px 60px 0; background:#fff;}
+section.last-content{padding-bottom:100px;}
+section .game-icon{display:block; width:161px; margin:55px auto 29px;}
+section .vr-icon{display:block; width:172px; margin:42px auto 43px;}
+section .space-icon{display:block; width:132px; height:143px; margin:43px auto 26px;}
+section .iot-icon{display:block; width:148px; height:147px; margin:72px auto 29px;}
+section h3{font-size:30px; font-weight:normal; line-height:48px; text-align:center; letter-spacing:-0.3px; color:#668f88;}
+section p{font-size:14px; letter-spacing:-0.14px; line-height:48px; text-align:center; color:#668f88;}
+section h2{margin-top:-12px; margin-bottom:42px; font-size:36px; font-weight:900; line-height:48px; text-align:center; letter-spacing:-1.8px;}
+section *[class$="pink"]{color:#ff006c;}
+section *[class$="blue"]{color:#00abff;}
+section *[class$="green"]{color:#00a896;}
+section *[class$="yellow"]{color:#ff9000;}
+section .academics-main-img{margin-bottom:47px;}
+section dl{width:100%; height:auto; margin-bottom:39px;}
+section dl dt{height:100%; font-size:16px; font-weight:900; letter-spacing:-0.16px; line-height:18px; color:#272218;}
+section dl dt div[class^="bar"]{height:1px; margin-bottom:5px;}
+section dl dt .bar-pink{background:#ff006c;}
+section dl dt .bar-blue{background:#00abff;}
+section dl dt .bar-green{background:#00a896;}
+section dl dt .bar-yellow{background:#ff9000;}
+section dl dd{font-size:14px; line-height:24px; letter-spacing:-0.14px; color:#272218;}
+section dl dd span{font-weight:bold;}
+section dl.dl-long dt div[class^="bar"]{width:201px;}
+section div[class*="img-box"]{display:flex; justify-content:space-between; width:100%; margin-bottom:45px;}
+section div[class*="img-box"] *{float:left; width:246px;}
+section div[class*="img-box"] div{display:flex; flex-direction:column; justify-content:space-between;}
+section .academics-gimg-box{height:427px;}
+section .academics-vimg-box{height:445px;}
+section .academics-simg-box{height:427px;}
+section .academics-iimg-box{height:595px;}
+section.space-content div[class*="img-box"] div img{width:193px;}
+section.space-content div[class*="img-box"] div img:nth-child(1), section.space-content div[class*="img-box"] div img:nth-child(4){height:139px;}
+section.space-content div[class*="img-box"] div img:nth-child(2), section.space-content div[class*="img-box"] div img:nth-child(5){height:144px;}
+section.space-content div[class*="img-box"] div img:nth-child(3), section.space-content div[class*="img-box"] div img:nth-child(6){height:124px;}
+section.space-content div[class*="img-box"] img[alt="space_content_img7"]{width:355px;}
+section.iot-content div[class*="img-box"] img{width:100%;}
+section .dl-short{display:table; position:relative;}
+section .dl-short dt{display:table-cell; position:relative; top:9px; width:140px;}
+section .dl-short dt div[class^="bar"]{width:116px;}
+section hr{margin-top:65px; border:none; border-top:1px solid #cdcdcd;}
+
+@media screen and (max-width:480px){
+	body{background:#fff;}
+	#wrap{width:100%; margin:0;}
+	section{left:0; width:100%; margin:0; padding:0;}
+	aside{display:none;}
+	section .sub-main-img{width:100%;}
+	section div[class*="img-box"]{display:flex; width:100%; margin-bottom:45px;}
+	section div[class*="img-box"]>img{width:50%;}
+	section div[class*="img-box"]>img:nth-child(1){order:1;}
+	section div[class*="img-box"]>div+img{order:2;}
+	section div[class*="img-box"] div{display:flex; flex-direction:row; justify-content:space-between; order:3; width:100%;}
+}
